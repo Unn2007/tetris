@@ -12,6 +12,9 @@ display: flex;
 .tetris{
     
     border: solid 5px rgb(0, 255, 149);
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+
 }
 
 .tetris div {
@@ -20,4 +23,8 @@ display: flex;
     background: rgba(211, 211, 211, 0.4);
     box-shadow: inset 2px 2px 2px rgb(211, 54, 54), inset -2px -2px 2px rgb(62, 0, 139)
 
+}
+
+.tetris .O {
+    background-color: red;
 }
